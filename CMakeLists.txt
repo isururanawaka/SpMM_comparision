@@ -38,10 +38,11 @@ find_package(OpenMP REQUIRED)
 message("CMAKE_BINARY_PATH ${CMAKE_BINARY_DIR}")
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR}/bin)
 
-message("Finding MKL")
-find_package(MKL CONFIG REQUIRED)
+#message("Finding MKL")
+#find_package(MKL CONFIG REQUIRED)
 #message(STATUS "${MKL_IMPORTED_TARGETS}") #Provides available list of targets based on input
 
+set (CMAKE_CXX_FLAGS "-mkl")
 
 
 
@@ -50,9 +51,9 @@ set(SOURCES src/main.cpp)
 
 add_executable(SpMM_comparision ${SOURCES})
 
-target_compile_options(SpMM_comparision PUBLIC $<TARGET_PROPERTY:MKL::MKL,INTERFACE_COMPILE_OPTIONS>)
-target_include_directories(SpMM_comparision PUBLIC $<TARGET_PROPERTY:MKL::MKL,INTERFACE_INCLUDE_DIRECTORIES>)
-target_link_libraries(SpMM_comparision PUBLIC $<LINK_ONLY:MKL::MKL>)
+#target_compile_options(SpMM_comparision PUBLIC $<TARGET_PROPERTY:MKL::MKL,INTERFACE_COMPILE_OPTIONS>)
+#target_include_directories(SpMM_comparision PUBLIC $<TARGET_PROPERTY:MKL::MKL,INTERFACE_INCLUDE_DIRECTORIES>)
+#target_link_libraries(SpMM_comparision PUBLIC $<LINK_ONLY:MKL::MKL>)
 
 #add_subdirectory(src/dmrpt)
 #
