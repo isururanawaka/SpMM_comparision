@@ -38,6 +38,8 @@ find_package(OpenMP REQUIRED)
 message("CMAKE_BINARY_PATH ${CMAKE_BINARY_DIR}")
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR}/bin)
 
+message("Finding Intel")
+find_package(intel REQUIRED)
 
 
 set(SOURCES src/main.cpp)
