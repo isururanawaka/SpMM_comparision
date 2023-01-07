@@ -7,9 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e1bc20c-e7de-4f1f-80b3-8b28cf28972f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mkl.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mkl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673124172908</updated>
-      <workItem from="1673124174706" duration="4126000" />
+      <workItem from="1673124174706" duration="4554000" />
     </task>
     <servers />
   </component>
