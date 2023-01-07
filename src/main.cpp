@@ -1,0 +1,1 @@
+#include <string>#include <stdio.h>#include <iostream>using namespace std;int main(){ cout<<"hello"<<endl;	return 0;}//// Created by Isuru Ranawaka on 1/7/23.//

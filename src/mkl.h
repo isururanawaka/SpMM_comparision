@@ -1,0 +1,1 @@
+#ifndef _MKL_H_#define _MKL_H_class mkl{};#endif //_MKL_H_

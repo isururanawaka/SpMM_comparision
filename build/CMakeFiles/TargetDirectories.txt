@@ -1,0 +1,3 @@
+/Users/isururanawaka/Documents/SpMM_comparision/build/CMakeFiles/SpMM_comparision.dir
+/Users/isururanawaka/Documents/SpMM_comparision/build/CMakeFiles/edit_cache.dir
+/Users/isururanawaka/Documents/SpMM_comparision/build/CMakeFiles/rebuild_cache.dir
