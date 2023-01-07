@@ -38,6 +38,7 @@ find_package(OpenMP REQUIRED)
 message("CMAKE_BINARY_PATH ${CMAKE_BINARY_DIR}")
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR}/bin)
 
+message("Finding MKL")
 find_package(MKL CONFIG REQUIRED)
 #message(STATUS "${MKL_IMPORTED_TARGETS}") #Provides available list of targets based on input
 
